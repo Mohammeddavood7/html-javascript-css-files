@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    border:floralwhite;
+    padding: 10px;
+}
+
+
+header{
+      background-color:rgb(14, 13, 13);
+    padding: 20px;
+    margin-bottom: 150px;
+
+}
+.slogan{
+text-align: center;
+color: #fff;
+margin-bottom: 60px;
+}
+.slogan h1{
+    font-size: 40px;
+    font-family:'arial';
+}
+.slogan p{
+    font-size: 25px;
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin:auto;
+    grid-gap:20px 15px;
+}
+
+.grid-box img{
+    border-radius: 5px;
+    transition:800ms;
+
+}
+.grid-box img:hover{
+    transform:rotateY(180deg);
+    box-shadow:2px 5px 20px yellow;
+}
+.grid-box a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 100ms;
+}
+.grid-box a:hover{
+    color:blue;
+    cursor: pointer;
+}
+.grid-box span{
+    color:white;
+}

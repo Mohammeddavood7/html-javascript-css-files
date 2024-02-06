@@ -1,0 +1,76 @@
+main{
+    padding:100px;
+   display:flex;
+   justify-content:center;
+
+   
+}
+body{
+    background:url(/htmlij2023/image2023/registrationimage.avif);
+
+    background-position:fixed;
+}
+
+section{
+
+    color:white;
+    padding-left:30px ;
+    width:30%;
+    padding-bottom:20px;
+    box-shadow:2px 2px 20px white;
+  
+}
+h1{
+    text-align: center;
+    text-decoration: 2px solid white underline;
+}
+label,span,input,select{
+    border-radius: 3px;
+    font-size:22px;
+}
+input{
+    border:none;
+    outline:none;
+    border-radius:2px;
+}
+input:focus{
+    outline:3px solid yellow;
+    border-radius:2px;
+}
+
+[type="text"],[ type="date" ],[type="email"],select{
+
+    width: 250px;
+}
+[type="checkbox"],[type="radio"]
+{
+    accent-color: yellow;
+}
+
+select:focus{
+    outline:none;
+    border-radius:2px;
+}
+ select:focus{
+    
+    outline:3px solid yellow;
+    border:2px;
+}
+
+button{
+    width:180px;
+    height:40px;
+    background:linear-gradient(to left, rgb(86, 86, 206),white);
+    font-size:18px;
+    color:white;
+    border:0;
+    outline:0;
+    transition: 600ms;
+
+}
+button:hover{
+    background:linear-gradient(to right, rgb(86, 86, 206),white);
+    cursor:pointer;
+    border-radius:15px;
+}
+

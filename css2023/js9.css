@@ -1,0 +1,53 @@
+.labels{
+   
+    display:inline-block; 
+    justify-content:space-evenly;
+    margin:10px;
+    
+}
+
+.inputs{
+    display:inline-block;
+    justify-content:space-evenly;
+    margin-bottom:10px;
+    
+}
+input{
+    margin: 3px;
+}
+
+label{
+    margin: 2px;
+    font-size:22px;
+    margin-left: 30px;
+}
+
+body{ 
+    color:blue;
+    margin-left: 40%;
+    
+    width:400px;
+    height: 350px;
+    box-shadow: 3px 3px 10px gray;
+}
+
+button{
+     display:block;
+     margin:auto;
+     margin-bottom: 50px;
+
+}
+
+main{
+   
+    padding:15px;
+    background-color:cyan;
+    padding-top:5%;
+    padding-bottom:20%;
+    
+   
+}
+output{
+    display:block;
+     padding-left: 65%;
+}

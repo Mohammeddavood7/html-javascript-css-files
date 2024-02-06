@@ -1,0 +1,42 @@
+#heading{
+	padding-left:10PX;
+}
+.flex-box{
+	display:flex;
+	justify-content:space-between;
+	padding-left:20px;
+	padding-bottom:15px;
+}
+.flex-main{
+	display: flex;
+	justify-content:space-evenly;
+
+}
+
+.flex-box > div{
+	box-shadow:2px 2px 10px black;
+	text-align:center;
+	border-radius:15px;
+}
+.flex-box > div:hover{
+	box-shadow:2px 2px 20px blue;
+	transform:scale(1.1);
+}
+img{
+	width:150px;
+	height:145px;
+}
+
+.flex-box > div > div> span:first-child{
+	background:green;
+	padding:2px;
+	border-radius:5px;
+	color:white;	
+}
+
+.flex-box> div > div{
+	margin-bottom:10px;
+}
+.flex-box > div >div:last-child>span{
+	color:green;
+}
