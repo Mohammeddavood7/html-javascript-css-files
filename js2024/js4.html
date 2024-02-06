@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body align="center">
+    <label for="textId1">Enter first number: </label>
+    <input type="text" id="textId1" > <br> <br>
+    <LABel for="textId2">Enter first number </LABel>
+    <input type="text" id="textId2"> <br>
+    <button onclick="addition()">Addition</button> <br>
+    <output id="op"></output>
+
+    <script>
+        function addition()
+        {
+            let x,y,res;
+            x = +textId1.value;
+            y = +textId2.value;
+            res = x+y;
+            //document.write("sum is:"+res);
+           //alert("sum is: "+res);
+           //console.log("sum is :"+res);
+           op.value = "Sum is :"+res;
+            
+        }
+    </script>
+        
+    
+</body>
+</html>

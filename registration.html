@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registration Form </title>
+        <link rel="icon" href="image2023/htmllogo.png" >
+        <link rel="stylesheet" href="/htmlij2023/css2023/registration.css">
+        <link rel="file" href="openregistration.html">
+    </head>
+    <body>
+
+        <main>
+            <section x>
+        <div><h1>Registration Form:</h1></div>
+      
+        <form id="frm" action="openregistration.html" method="get" >
+
+        <div>
+            <p>
+            <span style="color: red;">&#x002A;</span>
+            <label for="fn">Full Name: </label><br>
+            <input type="text" id="fn" name="fn" required autofocus>
+            </p>
+        </div>
+
+         <div>
+            <p>
+                <span style="color: red;">&#x002A;</span>
+                <label for="cn">Contact Name:</label><br>
+                <input type="text" id="cn" name="cn" required autofocus>
+
+            </p>
+         </div>
+
+         <div>
+            <p>
+                <span style="color: red;">&#x002A;</span>
+                <label for="mail">Email Id:</label><br>
+                <input type="email" id="mail" name="mail" required autofocus>
+
+            </p>
+         </div>
+
+         <div>
+            <p>
+                <span style="color: red;">&#x002A;</span>
+                <label for="dob">Date Of Birth:</label><br>
+                <input type="Date" id="dob" name="dob" min="1995-10-01" required autofocus>
+
+            </p>
+         </div>
+          
+         <div>
+            <p>
+                <span style="color: red;">&#x002A;</span>
+                <label for="gen1">Gender: </label><br>
+                <label for="gen">Male</label> 
+                <input type="radio" id="gen1" name="gen1" autofocus>
+                &nbsp; &nbsp;
+                <label for="gen2">Female</label>
+                <input type="radio" id="gen2" name="gen2"  autofocus>
+                &nbsp;&nbsp;
+                <label for="gen3">Others</label>
+                <input type="radio" id="gen3" name="gen3" autofocus>
+                
+            </p>
+         </div>
+
+         <div>
+            <p>
+                <span style="color: red;">&#x002A;</span>
+                <label for="co">Which Course: </label><br>
+                <select name="course" id="course" >
+                    <option value="c" >C Language</option>
+                    <option value="cpp">C++ Language</option>
+                    <option value="java" selected>Java Language</option>
+                    <option value="py">Python Full Stack</option>
+                    <option value="mango">Mango DB</option>
+                </select>
+            </p>
+         </div>
+
+         <div>
+            <p>
+                <span style="color: red;">&#x002A;</span>
+                <label for="modeoft">Mode Of Training:</label><br>
+                <select name="mode" id="mode" default>
+                    <option value="cl">Class Room</option>
+                    <option value="on">Online Class</option>
+                    <option value="clfull">Class Room Full Stack</option>
+                    <option value="onfull">Online Full Stack</option>
+                    <option value="project">Project Training</option>
+                    <option value="intern">InternShipt Traine</option>
+                </select>
+            </p>
+         </div>
+
+         <div>
+         <p align="center">
+            <input type="checkbox" id="cbox" name="cbox" required>
+            <br>
+            <label for="chck">Accept all terms conditions</label>
+         </p>
+         <p align="center">
+            <button type="submit" name="sb" id="sb">Register</button>
+        </p>
+        </div>
+</form>
+</section>
+</main>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body align="center">
+<br>
+<input type="text" name="tb" id="tb" placeholder="Enter the number" autofocus> <br> <br>
+<button onclick="addNum()" submit="addNum">add elements</button>
+<button onclick="display()">get output</button>
+<br>
+<output id="op"></output>
+
+<script>
+    const ele=[];
+    function addNum()
+    {
+        let e = +tb.value;
+
+        if(isNaN(e))
+        {
+            alert('Enter Only Number')
+        }
+        else
+        {
+            ele.push(e);
+        }
+        tb.value="";
+        tb.focus();
+
+    }
+
+    function display()
+    {
+        op.value = (`elements : ${ele}`);
+
+    }
+</script>
+    
+</body>
+</html>
